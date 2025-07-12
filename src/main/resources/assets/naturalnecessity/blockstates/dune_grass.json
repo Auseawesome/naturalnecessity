@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "red_sand=false": {
+      "model": "naturalnecessity:block/dune_grass_sand"
+    },
+    "red_sand=true": {
+      "model": "naturalnecessity:block/dune_grass_red_sand"
+    }
+  }
+}

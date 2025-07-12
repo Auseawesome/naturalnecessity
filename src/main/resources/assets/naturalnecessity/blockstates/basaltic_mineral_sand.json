@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "naturalnecessity:block/basaltic_mineral_sand"
+      },
+      {
+        "model": "naturalnecessity:block/basaltic_mineral_sand",
+        "y": 90
+      },
+      {
+        "model": "naturalnecessity:block/basaltic_mineral_sand",
+        "y": 180
+      },
+      {
+        "model": "naturalnecessity:block/basaltic_mineral_sand",
+        "y": 270
+      }
+    ]
+  }
+}

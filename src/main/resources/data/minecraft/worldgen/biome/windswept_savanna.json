@@ -27,8 +27,8 @@
     ],
     [
       "minecraft:amethyst_geode",
-      "naturalphilosophy:plains_supertype/savanna_type/rocks",
-      "naturalphilosophy:plains_supertype/savanna_type/gravel_rocks"
+      "naturalnecessity:plains_supertype/savanna_type/rocks",
+      "naturalnecessity:plains_supertype/savanna_type/gravel_rocks"
     ],
     [
       "minecraft:monster_room",
@@ -73,9 +73,9 @@
       "minecraft:spring_lava"
     ],
     [
-      "naturalphilosophy:plains_supertype/savanna_type/groundcover",
-      "naturalphilosophy:plains_supertype/savanna_type/flowers",
-      "naturalphilosophy:plains_supertype/vegetation"
+      "naturalnecessity:plains_supertype/savanna_type/groundcover",
+      "naturalnecessity:plains_supertype/savanna_type/flowers",
+      "naturalnecessity:plains_supertype/vegetation"
     ],
     [
       "minecraft:freeze_top_layer"

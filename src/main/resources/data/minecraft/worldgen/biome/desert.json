@@ -33,7 +33,7 @@
     ],
     [
       "minecraft:amethyst_geode",
-      "naturalphilosophy:desert_supertype/sand_type/sandstone_spikes"
+      "naturalnecessity:desert_supertype/sand_type/sandstone_spikes"
     ],
     [
       "minecraft:fossil_upper",
@@ -82,7 +82,7 @@
       "minecraft:spring_lava"
     ],
     [
-      "naturalphilosophy:desert_supertype/sand_type/vegetation"
+      "naturalnecessity:desert_supertype/sand_type/vegetation"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "naturalnecessity:block/cattails_bottom"
+        },
+        "half=upper": {
+            "model": "naturalnecessity:block/cattails_top"
+        }
+    }
+}

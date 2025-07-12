@@ -29,8 +29,8 @@
       "minecraft:iceberg_packed",
       "minecraft:iceberg_blue",
       "minecraft:amethyst_geode",
-      "naturalphilosophy:water_supertype/ocean_type/cobblestone_rocks",
-      "naturalphilosophy:water_supertype/ocean_type/gravel_rocks"
+      "naturalnecessity:water_supertype/ocean_type/cobblestone_rocks",
+      "naturalnecessity:water_supertype/ocean_type/gravel_rocks"
     ],
     [
       "minecraft:monster_room",
@@ -77,10 +77,10 @@
       "minecraft:spring_lava"
     ],
     [
-      "naturalphilosophy:water_supertype/ocean_type/kelp_frozen",
-      "naturalphilosophy:water_supertype/ocean_type/seagrass_frozen",
-      "naturalphilosophy:water_supertype/ocean_type/red_algae",
-      "naturalphilosophy:water_supertype/ocean_type/bone_coral_gravel_sparse"
+      "naturalnecessity:water_supertype/ocean_type/kelp_frozen",
+      "naturalnecessity:water_supertype/ocean_type/seagrass_frozen",
+      "naturalnecessity:water_supertype/ocean_type/red_algae",
+      "naturalnecessity:water_supertype/ocean_type/bone_coral_gravel_sparse"
     ],
     [
       "minecraft:freeze_top_layer"

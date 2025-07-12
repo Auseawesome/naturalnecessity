@@ -1,0 +1,46 @@
+{
+  "feature": {
+    "type": "naturalnecessity:kelp",
+    "config": {}
+  },
+  "placement": [
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 200,
+      "noise_factor": 80,
+      "noise_offset": 0.75
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "minecraft:gravel",
+          "minecraft:cobblestone",
+          "minecraft:mossy_cobblestone",
+          "minecraft:stone"
+        ]
+      }
+    },
+    {
+      "type": "naturalnecessity:depth_filter",
+      "taper_start": 40,
+      "taper_end": 25
+    }
+  ]
+}

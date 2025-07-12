@@ -1,0 +1,32 @@
+{
+  "feature": "naturalnecessity:trees/dark_oak",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:dark_oak_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "offset": [
+            1,
+            -2,
+            1
+          ],
+          "blocks": "#minecraft:air"
+        }
+      }
+    }
+  ]
+}

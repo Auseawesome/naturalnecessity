@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "naturalnecessity:block/rushes_top"
+    }
+}

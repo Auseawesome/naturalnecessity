@@ -77,15 +77,15 @@
       "minecraft:spring_lava"
     ],
     [
-      "naturalphilosophy:forest_supertype/deciduous_type/old_growth_birch_copses",
-      "naturalphilosophy:forest_supertype/deciduous_type/birch_undergrowth",
-      "naturalphilosophy:forest_supertype/sweet_berries",
-      "naturalphilosophy:forest_supertype/mushrooms",
-      "naturalphilosophy:forest_supertype/moss",
-      "naturalphilosophy:forest_supertype/deciduous_type/clearing_flowers",
-      "naturalphilosophy:forest_supertype/deciduous_type/cold_flowers",
-      "naturalphilosophy:forest_supertype/deciduous_type/clearing_vegetation",
-      "naturalphilosophy:forest_supertype/deciduous_type/vegetation"
+      "naturalnecessity:forest_supertype/deciduous_type/old_growth_birch_copses",
+      "naturalnecessity:forest_supertype/deciduous_type/birch_undergrowth",
+      "naturalnecessity:forest_supertype/sweet_berries",
+      "naturalnecessity:forest_supertype/mushrooms",
+      "naturalnecessity:forest_supertype/moss",
+      "naturalnecessity:forest_supertype/deciduous_type/clearing_flowers",
+      "naturalnecessity:forest_supertype/deciduous_type/cold_flowers",
+      "naturalnecessity:forest_supertype/deciduous_type/clearing_vegetation",
+      "naturalnecessity:forest_supertype/deciduous_type/vegetation"
     ],
     [
       "minecraft:freeze_top_layer"

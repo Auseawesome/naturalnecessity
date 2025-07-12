@@ -1,0 +1,8 @@
+{
+  "type": "naturalnecessity:rock",
+  "config": {
+    "state": {
+      "Name": "minecraft:calcite"
+    }
+  }
+}

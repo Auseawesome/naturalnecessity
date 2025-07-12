@@ -72,8 +72,8 @@
       "minecraft:spring_lava"
     ],
     [
-      "naturalphilosophy:forest_supertype/evergreen_type/snowy_copses",
-      "naturalphilosophy:forest_supertype/evergreen_type/snowy_undergrowth"
+      "naturalnecessity:forest_supertype/evergreen_type/snowy_copses",
+      "naturalnecessity:forest_supertype/evergreen_type/snowy_undergrowth"
     ],
     [
       "minecraft:freeze_top_layer"

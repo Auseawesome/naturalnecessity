@@ -1,0 +1,6 @@
+{
+  "parent": "naturalnecessity:block/cross_cutout",
+  "textures": {
+    "cross": "naturalnecessity:block/rushes_top"
+  }
+}

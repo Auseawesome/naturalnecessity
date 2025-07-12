@@ -77,17 +77,17 @@
       "minecraft:spring_lava"
     ],
     [
-      "naturalphilosophy:forest_supertype/jungle_type/overstory",
-      "naturalphilosophy:forest_supertype/jungle_type/sparse_overstory",
-      "naturalphilosophy:forest_supertype/jungle_type/substory",
-      "naturalphilosophy:forest_supertype/jungle_type/understory",
-      "naturalphilosophy:forest_supertype/jungle_type/undergrowth",
-      "naturalphilosophy:forest_supertype/jungle_type/melon_patch",
-      "naturalphilosophy:forest_supertype/mushrooms",
-      "naturalphilosophy:forest_supertype/moss_common",
-      "naturalphilosophy:forest_supertype/moss",
-      "naturalphilosophy:forest_supertype/jungle_type/flowers",
-      "naturalphilosophy:forest_supertype/jungle_type/vegetation"
+      "naturalnecessity:forest_supertype/jungle_type/overstory",
+      "naturalnecessity:forest_supertype/jungle_type/sparse_overstory",
+      "naturalnecessity:forest_supertype/jungle_type/substory",
+      "naturalnecessity:forest_supertype/jungle_type/understory",
+      "naturalnecessity:forest_supertype/jungle_type/undergrowth",
+      "naturalnecessity:forest_supertype/jungle_type/melon_patch",
+      "naturalnecessity:forest_supertype/mushrooms",
+      "naturalnecessity:forest_supertype/moss_common",
+      "naturalnecessity:forest_supertype/moss",
+      "naturalnecessity:forest_supertype/jungle_type/flowers",
+      "naturalnecessity:forest_supertype/jungle_type/vegetation"
     ],
     [
       "minecraft:freeze_top_layer"

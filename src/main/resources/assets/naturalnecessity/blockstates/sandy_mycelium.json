@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "snowy=false": [
+      {
+        "model": "naturalnecessity:block/sandy_mycelium"
+      },
+      {
+        "model": "naturalnecessity:block/sandy_mycelium",
+        "y": 90
+      },
+      {
+        "model": "naturalnecessity:block/sandy_mycelium",
+        "y": 180
+      },
+      {
+        "model": "naturalnecessity:block/sandy_mycelium",
+        "y": 270
+      }
+    ],
+    "snowy=true": {
+      "model": "naturalnecessity:block/sandy_mycelium"
+    }
+  }
+}

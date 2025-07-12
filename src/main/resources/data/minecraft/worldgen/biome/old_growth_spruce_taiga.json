@@ -33,7 +33,7 @@
     ],
     [
       "minecraft:amethyst_geode",
-      "naturalphilosophy:forest_supertype/evergreen_type/mossy_rocks"
+      "naturalnecessity:forest_supertype/evergreen_type/mossy_rocks"
     ],
     [
       "minecraft:monster_room",
@@ -78,17 +78,17 @@
       "minecraft:spring_lava"
     ],
     [
-      "naturalphilosophy:forest_supertype/evergreen_type/old_growth_spruce_copses",
-      "naturalphilosophy:forest_supertype/evergreen_type/old_growth_spruce_undergrowth",
-      "naturalphilosophy:forest_supertype/evergreen_type/taiga_cliffs",
-      "naturalphilosophy:forest_supertype/sweet_berries",
-      "naturalphilosophy:forest_supertype/mushrooms",
-      "naturalphilosophy:forest_supertype/moss_common",
-      "naturalphilosophy:forest_supertype/moss",
-      "naturalphilosophy:forest_supertype/evergreen_type/clearing_flowers",
-      "naturalphilosophy:forest_supertype/evergreen_type/flowers",
-      "naturalphilosophy:forest_supertype/evergreen_type/clearing_vegetation",
-      "naturalphilosophy:forest_supertype/evergreen_type/vegetation"
+      "naturalnecessity:forest_supertype/evergreen_type/old_growth_spruce_copses",
+      "naturalnecessity:forest_supertype/evergreen_type/old_growth_spruce_undergrowth",
+      "naturalnecessity:forest_supertype/evergreen_type/taiga_cliffs",
+      "naturalnecessity:forest_supertype/sweet_berries",
+      "naturalnecessity:forest_supertype/mushrooms",
+      "naturalnecessity:forest_supertype/moss_common",
+      "naturalnecessity:forest_supertype/moss",
+      "naturalnecessity:forest_supertype/evergreen_type/clearing_flowers",
+      "naturalnecessity:forest_supertype/evergreen_type/flowers",
+      "naturalnecessity:forest_supertype/evergreen_type/clearing_vegetation",
+      "naturalnecessity:forest_supertype/evergreen_type/vegetation"
     ],
     [
       "minecraft:freeze_top_layer"

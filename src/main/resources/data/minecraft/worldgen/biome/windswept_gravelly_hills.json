@@ -27,8 +27,8 @@
     ],
     [
       "minecraft:amethyst_geode",
-      "naturalphilosophy:mountain_supertype/windswept_type/rocks",
-      "naturalphilosophy:mountain_supertype/windswept_type/gravel_rocks"
+      "naturalnecessity:mountain_supertype/windswept_type/rocks",
+      "naturalnecessity:mountain_supertype/windswept_type/gravel_rocks"
     ],
     [
       "minecraft:monster_room",
@@ -76,8 +76,8 @@
       "minecraft:spring_lava"
     ],
     [
-      "naturalphilosophy:mountain_supertype/windswept_type/groundcover",
-      "naturalphilosophy:mountain_supertype/windswept_type/vegetation"
+      "naturalnecessity:mountain_supertype/windswept_type/groundcover",
+      "naturalnecessity:mountain_supertype/windswept_type/vegetation"
     ],
     [
       "minecraft:freeze_top_layer"

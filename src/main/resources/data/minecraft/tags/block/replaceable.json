@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "naturalphilosophy:dune_grass",
-    "naturalphilosophy:mycelial_growth",
-    "naturalphilosophy:red_algae"
+    "naturalnecessity:dune_grass",
+    "naturalnecessity:mycelial_growth",
+    "naturalnecessity:red_algae"
   ]
 }

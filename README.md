@@ -1,26 +1,25 @@
-# Natural Philosophy
+# Natural Necessity
 
-Natural Philosophy is a mod that aims to transform and rejuvenate how Minecraft biomes are decorated. It takes new blocks only used in a few biomes and new concepts in generation since old biomes such as forests were designed and applies them to all biomes in the game, putting variety and life into Minecraft's biomes.
+Natural Necessity is a mod that aims to transform and rejuvenate how Minecraft biomes are decorated. It takes new blocks only used in a few biomes and new concepts in generation since old biomes such as forests were designed and applies them to all biomes in the game, putting variety and life into Minecraft's biomes.
 
-Natural Philosophy is designed with the goal of not using modded features (added blocks, new biomes) to paper over the issues of the Vanilla biomes and the Vanilla generation paradigm, while also not shying away from using modded features while appropriate. Natural Philosoph tries to avoid both Biomes o' Plenty and its several kinds of very similar, differently-colored plains biomes and Terralith, with its hidden campfires to produce smoke in its generation paradigms.
+Natural Necessity is designed with the goal of not using modded features (added blocks, new biomes) to paper over the issues of the Vanilla biomes and the Vanilla generation paradigm, while also not shying away from using modded features while appropriate. Natural Philosoph tries to avoid both Biomes o' Plenty and its several kinds of very similar, differently-colored plains biomes and Terralith, with its hidden campfires to produce smoke in its generation paradigms.
 
 ## Important Notes
 
-Natural Philosophy does not change modded biomes and has no plans to change modded biomes at this time. This is in part due to the amount of work and customization that needs to go into a singular biome, and how most mods do not add enough decorations to sufficiently differentiate their biomes from Minecraft biomes.
+Natural Necessity does not change modded biomes and has no plans to change modded biomes at this time. This is in part due to the amount of work and customization that needs to go into a singular biome, and how most mods do not add enough decorations to sufficiently differentiate their biomes from Minecraft biomes.
 
-Natural Philosophy also replaces many Vanilla generation objects with its own, more organized counterparts. Mods that modify things such as Vanilla's `minecraft:patch_taiga_grass` or similar may not be supported.
+Natural Necessity also replaces many Vanilla generation objects with its own, more organized counterparts. Mods that modify things such as Vanilla's `minecraft:patch_taiga_grass` or similar may not be supported.
 
-Mods which do minimal overhauls of Vanilla biomes are considered to be 'extraneous' or 'actively detrimental' and are listed below, after the suggested mods heading. These are _not_ suggested for use with Natural Philosophy.
+Mods which do minimal overhauls of Vanilla biomes are considered to be 'extraneous' or 'actively detrimental' and are listed below, after the suggested mods heading. These are _not_ suggested for use with Natural Necessity.
 
 ## Suggested Mods
 
 [Tectonic](https://modrinth.com/datapack/tectonic) is one of the most gorgeous terrain generators for current versions.  
-[Better Biome Reblend](https://modrinth.com/mod/bbrb) smooths out the sharp biome & water color transitions Vanilla has.    
-[Project: Vibrant Journeys](https://modrinth.com/mod/project-vibrant-journeys) adds decorations out of scope for Natural Philosophy.
+[Better Biome Reblend](https://modrinth.com/mod/bbrb) smooths out the sharp biome & water color transitions Vanilla has.
 
 ### Important Information for Project: Vibrant Journeys
 
-Natural Philosophy has many features which overlap heavily with that of Project: Vibrant Journeys. It is suggested to disable the following P:VJ features for best compatibility between the two mods.
+Natural Necessity has many features which overlap heavily with that of Project: Vibrant Journeys. It is suggested to disable the following P:VJ features for best compatibility between the two mods.
 
  - Sea Oats, `enableSeaOats`
  - Cattails `enableCattails`
@@ -33,7 +32,7 @@ Natural Philosophy has many features which overlap heavily with that of Project:
  
 ## Supplanted Mods
 
-#### Natural Philosophy Implements These Mods
+#### Natural Necessity Implements These Mods
 
  - Simple Snowy Fix
  - Snow Under Trees
@@ -41,7 +40,7 @@ Natural Philosophy has many features which overlap heavily with that of Project:
  - CliffFace
  - Cliffs
 
-#### Natural Philosophy Supplants These Mods
+#### Natural Necessity Supplants These Mods
 
  - Biome Makeover
  - Swampier Swamps
@@ -67,7 +66,7 @@ Instead, a few new biomes have been added that _do_ spice up the world, some des
 
 ### The Point of It All
 
-Natural Philosophy aims to fix the lack of attention given to Minecraft's biomes. Take old biomes, some new ideas and gripes about how Minecraft biomes don't make sense within limited evolutionary constraints, and make something new out of them. Take all of these inspirations and transform old biomes into not necessarily new experiences, but at least visual delights. 
+Natural Necessity aims to fix the lack of attention given to Minecraft's biomes. Take old biomes, some new ideas and gripes about how Minecraft biomes don't make sense within limited evolutionary constraints, and make something new out of them. Take all of these inspirations and transform old biomes into not necessarily new experiences, but at least visual delights. 
 
 Jungle biomes are transformed into a bi-layered tropical rainforest, with noise-distributed bush clusters on the coarse dirt and podzol ground. Above you soars a canopy over 24 meters tall, with an understory just a few meters over your head. Sometimes you hack your way through with a trusty machete, and sometimes you can gaze through small gaps in the foliage to see the sun.
 
@@ -79,15 +78,17 @@ Rivers see clay, gravel, mud, and sand in great abundance. No longer do scattere
 
 Deserts and badlands are no longer flat expanses of sand with randomly-spread cacti, but have patches of hardy grasses growing admist other vegetation. Wooded badlands are full of short, hardy bushes preserving moisture against the dry desert heat and slowly transforming the canyon tops from terracotta to coarse dirt.
 
-Natural Philosophy specifically takes biomes that have been underdeveloped by the game and makes them slightly more realistic, while moving away from a paradigm of flat, mown grass with the occasional higher tuft. Features before confined to one biome can be seen in many, and some blocks seldom-useful have been expanded to provide better scenery, such as azalea bushes across the understory of most forests.
+Natural Necessity specifically takes biomes that have been underdeveloped by the game and makes them slightly more realistic, while moving away from a paradigm of flat, mown grass with the occasional higher tuft. Features before confined to one biome can be seen in many, and some blocks seldom-useful have been expanded to provide better scenery, such as azalea bushes across the understory of most forests.
 
 ## Inspirations
 
-[Geophilic](https://modrinth.com/datapack/geophilic) is similar to Natural Philosophy but sticks to a Vanilla decoration style.    
+[Natural Philosophy](https://modrinth.com/mod/natural-philosophy) is the mod this mod was forked from, it adds more blocks rather than sticking to only the vanilla palette
+[Geophilic](https://modrinth.com/datapack/geophilic) is similar to Natural Necessity but sticks to a Vanilla decoration style.    
 [Project Vibrant Journeys](https://modrinth.com/mod/project-vibrant-journeys) is focused on adding block-based decoration features.    
 [Stony Cliffs Are Cool](https://modrinth.com/datapack/stony-cliffs-are-cool) adds stone cliffs to steep surfaces on generation.    
 [Simple Snowy Fix](https://modrinth.com/mod/simple-snowy-fix) adds snow spawning and ice spawning underneath trees.
 
 Other inspirations come from too many biome mods to count, here and there. A selected list for a few features of note can be found in `ideas.txt` in the main directory.
 
-Simple Snowy Fix and Stony Cliffs are Cool are integrated into Natural Philosophy and need not be included alongside.
+As this mod was forked from Natural Philosophy, it will not work correctly alongside it.
+Simple Snowy Fix and Stony Cliffs are Cool are integrated into Natural Necessity and need not be included alongside.

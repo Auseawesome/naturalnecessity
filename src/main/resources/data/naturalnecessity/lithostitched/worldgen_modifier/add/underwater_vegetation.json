@@ -1,0 +1,6 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#naturalnecessity:non_water",
+  "features": "naturalnecessity:underwater_vegetation",
+  "step": "vegetal_decoration"
+}

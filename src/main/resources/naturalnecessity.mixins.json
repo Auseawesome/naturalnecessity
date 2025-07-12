@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "dev.perxenic.naturalnecessity.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FreezeSurfaceMixin",
+    "GlowLichenBlockMixin",
+    "KelpBlockMixin",
+    "KelpPlantBlockMixin",
+    "MushroomBlockMixin",
+    "SculkVeinBlockMixin",
+    "SnowyTreesMixin",
+    "SurfaceRulesMixin",
+    "SurfaceRulesMixin$ConditionSource",
+    "SurfaceRulesMixin$Context"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

@@ -71,18 +71,18 @@
       "minecraft:spring_lava"
     ],
     [
-      "naturalphilosophy:forest_supertype/evergreen_type/taiga_pine",
-      "naturalphilosophy:forest_supertype/evergreen_type/taiga_spruce",
-      "naturalphilosophy:forest_supertype/evergreen_type/taiga_undergrowth",
-      "naturalphilosophy:forest_supertype/evergreen_type/taiga_cliffs",
-      "naturalphilosophy:forest_supertype/sweet_berries",
-      "naturalphilosophy:forest_supertype/mushrooms",
-      "naturalphilosophy:forest_supertype/moss_common",
-      "naturalphilosophy:forest_supertype/moss",
-      "naturalphilosophy:forest_supertype/evergreen_type/clearing_flowers",
-      "naturalphilosophy:forest_supertype/evergreen_type/flowers",
-      "naturalphilosophy:forest_supertype/evergreen_type/clearing_vegetation",
-      "naturalphilosophy:forest_supertype/evergreen_type/vegetation"
+      "naturalnecessity:forest_supertype/evergreen_type/taiga_pine",
+      "naturalnecessity:forest_supertype/evergreen_type/taiga_spruce",
+      "naturalnecessity:forest_supertype/evergreen_type/taiga_undergrowth",
+      "naturalnecessity:forest_supertype/evergreen_type/taiga_cliffs",
+      "naturalnecessity:forest_supertype/sweet_berries",
+      "naturalnecessity:forest_supertype/mushrooms",
+      "naturalnecessity:forest_supertype/moss_common",
+      "naturalnecessity:forest_supertype/moss",
+      "naturalnecessity:forest_supertype/evergreen_type/clearing_flowers",
+      "naturalnecessity:forest_supertype/evergreen_type/flowers",
+      "naturalnecessity:forest_supertype/evergreen_type/clearing_vegetation",
+      "naturalnecessity:forest_supertype/evergreen_type/vegetation"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "naturalphilosophy:basaltic_mineral_sand",
-    "naturalphilosophy:sandy_mycelium"
+    "naturalnecessity:basaltic_mineral_sand",
+    "naturalnecessity:sandy_mycelium"
   ]
 }

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "large=false": {
+            "model": "naturalnecessity:block/small_red_algae"
+        },
+        "large=true": {
+            "model": "naturalnecessity:block/large_red_algae"
+        }
+    }
+}

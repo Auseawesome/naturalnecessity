@@ -1,15 +1,15 @@
 {
   "values": {
-    "naturalphilosophy:dune_grass": {
+    "naturalnecessity:dune_grass": {
       "chance": 0.3
     },
-    "naturalphilosophy:cattails": {
+    "naturalnecessity:cattails": {
       "chance": 0.65
     },
-    "naturalphilosophy:rushes": {
+    "naturalnecessity:rushes": {
       "chance": 0.65
     },
-    "naturalphilosophy:mycelial_growth": {
+    "naturalnecessity:mycelial_growth": {
       "chance": 0.65
     }
   }

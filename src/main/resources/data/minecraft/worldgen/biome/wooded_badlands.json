@@ -79,11 +79,11 @@
       "minecraft:spring_lava"
     ],
     [
-      "naturalphilosophy:desert_supertype/badlands_type/woodlands",
-      "naturalphilosophy:desert_supertype/badlands_type/shrublands",
-      "naturalphilosophy:desert_supertype/badlands_type/highlands_vegetation",
-      "naturalphilosophy:desert_supertype/badlands_type/basin_vegetation",
-      "naturalphilosophy:desert_supertype/badlands_type/basin_vegetation_sparse"
+      "naturalnecessity:desert_supertype/badlands_type/woodlands",
+      "naturalnecessity:desert_supertype/badlands_type/shrublands",
+      "naturalnecessity:desert_supertype/badlands_type/highlands_vegetation",
+      "naturalnecessity:desert_supertype/badlands_type/basin_vegetation",
+      "naturalnecessity:desert_supertype/badlands_type/basin_vegetation_sparse"
     ],
     [
       "minecraft:freeze_top_layer"

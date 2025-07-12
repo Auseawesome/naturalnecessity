@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "naturalnecessity:block/rushes_bottom"
+        },
+        "half=upper": {
+            "model": "naturalnecessity:block/rushes_top"
+        }
+    }
+}

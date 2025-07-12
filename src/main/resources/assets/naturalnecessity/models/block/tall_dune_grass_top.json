@@ -1,0 +1,7 @@
+{
+    "parent": "naturalnecessity:block/partial_tinted_cross",
+    "textures": {
+        "tinted": "naturalnecessity:block/tall_dune_grass_top",
+        "untinted": "naturalnecessity:block/tall_dune_grass_overlay"
+    }
+}

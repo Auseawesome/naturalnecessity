@@ -35,7 +35,7 @@
     ],
     [
       "minecraft:amethyst_geode",
-      "naturalphilosophy:mountain_supertype/grove_type/mossy_rocks"
+      "naturalnecessity:mountain_supertype/grove_type/mossy_rocks"
     ],
     [
       "minecraft:monster_room",
@@ -83,12 +83,12 @@
       "minecraft:spring_lava"
     ],
     [
-      "naturalphilosophy:mountain_supertype/grove_type/grove",
-      "naturalphilosophy:mountain_supertype/grove_type/bamboo",
-      "naturalphilosophy:mountain_supertype/grove_type/flowers",
-      "naturalphilosophy:mountain_supertype/grove_type/petals",
-      "naturalphilosophy:mountain_supertype/grove_type/grove_vegetation",
-      "naturalphilosophy:mountain_supertype/grove_type/bamboo_vegetation"
+      "naturalnecessity:mountain_supertype/grove_type/grove",
+      "naturalnecessity:mountain_supertype/grove_type/bamboo",
+      "naturalnecessity:mountain_supertype/grove_type/flowers",
+      "naturalnecessity:mountain_supertype/grove_type/petals",
+      "naturalnecessity:mountain_supertype/grove_type/grove_vegetation",
+      "naturalnecessity:mountain_supertype/grove_type/bamboo_vegetation"
     ],
     [
       "minecraft:freeze_top_layer"
