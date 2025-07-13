@@ -1,3 +1,5 @@
 Change Black Concrete Powder to sensible block in Mushroom Fields
 
 Reintegrate all disabled resources
+
+Wait for lithostitched to merge pull#59 and update
