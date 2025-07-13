@@ -13,7 +13,7 @@ import net.minecraft.world.level.levelgen.feature.configurations.TreeConfigurati
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacerType;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.MegaJungleFoliagePlacer;
-import dev.perxenic.naturalnecessity.common.worldgen.NPFoliagePlacers;
+import dev.perxenic.naturalnecessity.common.worldgen.NEFoliagePlacers;
 
 import javax.annotation.Nonnull;
 
@@ -32,7 +32,7 @@ public class BranchedMegaJungleFoliagePlacer extends MegaJungleFoliagePlacer {
     @Override
     @Nonnull
     protected FoliagePlacerType<?> type() {
-        return NPFoliagePlacers.BRANCHED_MEGA_JUNGLE_FOLIAGE_PLACER.get();
+        return NEFoliagePlacers.BRANCHED_MEGA_JUNGLE_FOLIAGE_PLACER.get();
     }
 
     @Override

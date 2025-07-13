@@ -16,7 +16,7 @@ import dev.perxenic.naturalnecessity.common.worldgen.features.NonShiftedKelpFeat
 import dev.perxenic.naturalnecessity.common.worldgen.features.NonLimitedRockFeature;
 
 @SuppressWarnings("unused")
-public class NPFeatures {
+public class NEFeatures {
     public static final DeferredRegister<Feature<?>> FEATURES = DeferredRegister.create(BuiltInRegistries.FEATURE, NaturalNecessity.MODID);
 
     public static final DeferredHolder<Feature<?>, Feature<ArchaeologyBlockFeature.ArchaeologyBlockConfiguration>> ARCHAEOLOGY_BLOCK = FEATURES.register("archaeology_block", () -> new ArchaeologyBlockFeature(ArchaeologyBlockFeature.ArchaeologyBlockConfiguration.CODEC));

@@ -13,7 +13,7 @@ import net.minecraft.world.level.levelgen.feature.configurations.TreeConfigurati
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacerType;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.MegaPineFoliagePlacer;
-import dev.perxenic.naturalnecessity.common.worldgen.NPFoliagePlacers;
+import dev.perxenic.naturalnecessity.common.worldgen.NEFoliagePlacers;
 
 import javax.annotation.Nonnull;
 
@@ -31,7 +31,7 @@ public class BranchedMegaPineFoliagePlacer extends MegaPineFoliagePlacer {
     @Override
     @Nonnull
     protected FoliagePlacerType<?> type() {
-        return NPFoliagePlacers.BRANCHED_MEGA_PINE_FOLIAGE_PLACER.get();
+        return NEFoliagePlacers.BRANCHED_MEGA_PINE_FOLIAGE_PLACER.get();
     }
 
     @Override

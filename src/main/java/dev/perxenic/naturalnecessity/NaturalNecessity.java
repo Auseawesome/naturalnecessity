@@ -3,10 +3,10 @@ package dev.perxenic.naturalnecessity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 
-import static dev.perxenic.naturalnecessity.common.worldgen.NPFeatures.FEATURES;
-import static dev.perxenic.naturalnecessity.common.worldgen.NPRootPlacers.ROOT_PLACERS;
-import static dev.perxenic.naturalnecessity.common.worldgen.NPFoliagePlacers.FOLIAGE_PLACERS;
-import static dev.perxenic.naturalnecessity.common.worldgen.NPPlacementModifiers.PLACEMENT_MODIFIERS;
+import static dev.perxenic.naturalnecessity.common.worldgen.NEFeatures.FEATURES;
+import static dev.perxenic.naturalnecessity.common.worldgen.NERootPlacers.ROOT_PLACERS;
+import static dev.perxenic.naturalnecessity.common.worldgen.NEFoliagePlacers.FOLIAGE_PLACERS;
+import static dev.perxenic.naturalnecessity.common.worldgen.NEPlacementModifiers.PLACEMENT_MODIFIERS;
 
 @Mod(NaturalNecessity.MODID)
 public class NaturalNecessity {

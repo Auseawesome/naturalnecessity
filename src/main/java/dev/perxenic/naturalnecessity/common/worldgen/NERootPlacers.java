@@ -8,7 +8,7 @@ import dev.perxenic.naturalnecessity.NaturalNecessity;
 import dev.perxenic.naturalnecessity.common.worldgen.rootplacers.LargeMangroveRootPlacer;
 
 @SuppressWarnings("unused")
-public class NPRootPlacers {
+public class NERootPlacers {
     public static final DeferredRegister<RootPlacerType<?>> ROOT_PLACERS = DeferredRegister.create(BuiltInRegistries.ROOT_PLACER_TYPE, NaturalNecessity.MODID);
 
     public static final DeferredHolder<RootPlacerType<?>, RootPlacerType<LargeMangroveRootPlacer>> LARGE_MANGROVE_ROOT_PLACER = ROOT_PLACERS.register("large_mangrove_root_placer", () -> new RootPlacerType<>(LargeMangroveRootPlacer.CODEC));

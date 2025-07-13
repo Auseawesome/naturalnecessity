@@ -10,7 +10,7 @@ import dev.perxenic.naturalnecessity.common.worldgen.placementmodifiers.DepthFil
 
 import javax.annotation.Nonnull;
 
-public class NPPlacementModifiers {
+public class NEPlacementModifiers {
     public static final DeferredRegister<PlacementModifierType<?>> PLACEMENT_MODIFIERS = DeferredRegister.create(BuiltInRegistries.PLACEMENT_MODIFIER_TYPE, NaturalNecessity.MODID);
 
     public static final DeferredHolder<PlacementModifierType<?>, PlacementModifierType<DepthFilter>> DEPTH_FILTER = PLACEMENT_MODIFIERS.register("depth_filter",

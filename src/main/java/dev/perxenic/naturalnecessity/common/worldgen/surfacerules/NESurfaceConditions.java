@@ -6,7 +6,7 @@ import net.minecraft.world.level.chunk.ChunkAccess;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.levelgen.SurfaceRules;
 
-public class NPSurfaceConditions {
+public class NESurfaceConditions {
     public static class CliffMaterialCondition extends SurfaceRules.LazyXZCondition {
         public CliffMaterialCondition(SurfaceRules.Context context) {
             super(context);

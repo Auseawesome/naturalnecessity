@@ -12,12 +12,12 @@ import net.minecraft.world.level.levelgen.SurfaceRules;
 
 import javax.annotation.Nonnull;
 
-public class NPSurfaceRules {
+public class NESurfaceRules {
 
     public enum Cliff implements SurfaceRules.ConditionSource {
         INSTANCE;
 
-        public static final KeyDispatchDataCodec<NPSurfaceRules.Cliff> CODEC = KeyDispatchDataCodec.of(MapCodec.unit(INSTANCE));
+        public static final KeyDispatchDataCodec<NESurfaceRules.Cliff> CODEC = KeyDispatchDataCodec.of(MapCodec.unit(INSTANCE));
 
         @Override
         @Nonnull
@@ -34,7 +34,7 @@ public class NPSurfaceRules {
     public enum CliffLip implements SurfaceRules.ConditionSource {
         INSTANCE;
 
-        public static final KeyDispatchDataCodec<NPSurfaceRules.CliffLip> CODEC = KeyDispatchDataCodec.of(MapCodec.unit(INSTANCE));
+        public static final KeyDispatchDataCodec<NESurfaceRules.CliffLip> CODEC = KeyDispatchDataCodec.of(MapCodec.unit(INSTANCE));
 
         @Override
         @Nonnull
@@ -51,7 +51,7 @@ public class NPSurfaceRules {
     public enum Flat implements SurfaceRules.ConditionSource {
         INSTANCE;
 
-        public static final KeyDispatchDataCodec<NPSurfaceRules.Flat> CODEC = KeyDispatchDataCodec.of(MapCodec.unit(INSTANCE));
+        public static final KeyDispatchDataCodec<NESurfaceRules.Flat> CODEC = KeyDispatchDataCodec.of(MapCodec.unit(INSTANCE));
 
         @Override
         @Nonnull
@@ -68,7 +68,7 @@ public class NPSurfaceRules {
     public enum FlatLiquid implements SurfaceRules.ConditionSource {
         INSTANCE;
 
-        public static final KeyDispatchDataCodec<NPSurfaceRules.FlatLiquid> CODEC = KeyDispatchDataCodec.of(MapCodec.unit(INSTANCE));
+        public static final KeyDispatchDataCodec<NESurfaceRules.FlatLiquid> CODEC = KeyDispatchDataCodec.of(MapCodec.unit(INSTANCE));
 
         @Override
         @Nonnull
@@ -88,22 +88,22 @@ public class NPSurfaceRules {
                                  double eroMin,   double eroMax,
                                  double weirdMin, double weirdMax,
                                  double depthMin, double depthMax) implements SurfaceRules.ConditionSource {
-        public static final KeyDispatchDataCodec<NPSurfaceRules.ClimateSampler> CODEC = KeyDispatchDataCodec.of(
+        public static final KeyDispatchDataCodec<NESurfaceRules.ClimateSampler> CODEC = KeyDispatchDataCodec.of(
             RecordCodecBuilder.mapCodec(
                 source -> source.group(
-                        Codec.DOUBLE.optionalFieldOf("min_temperature", -1.0).forGetter(NPSurfaceRules.ClimateSampler::tempMin),
-                        Codec.DOUBLE.optionalFieldOf("max_temperature", 1.0).forGetter(NPSurfaceRules.ClimateSampler::tempMax),
-                        Codec.DOUBLE.optionalFieldOf("min_humidity", -1.0).forGetter(NPSurfaceRules.ClimateSampler::humMin),
-                        Codec.DOUBLE.optionalFieldOf("max_humidity", 1.0).forGetter(NPSurfaceRules.ClimateSampler::humMax),
-                        Codec.DOUBLE.optionalFieldOf("min_continentalness", -1.0).forGetter(NPSurfaceRules.ClimateSampler::contMin),
-                        Codec.DOUBLE.optionalFieldOf("max_continentalness", 1.0).forGetter(NPSurfaceRules.ClimateSampler::contMax),
-                        Codec.DOUBLE.optionalFieldOf("min_erosion", -1.0).forGetter(NPSurfaceRules.ClimateSampler::eroMin),
-                        Codec.DOUBLE.optionalFieldOf("max_erosion", 1.0).forGetter(NPSurfaceRules.ClimateSampler::eroMax),
-                        Codec.DOUBLE.optionalFieldOf("min_weirdness", -1.0).forGetter(NPSurfaceRules.ClimateSampler::weirdMin),
-                        Codec.DOUBLE.optionalFieldOf("max_weirdness", 1.0).forGetter(NPSurfaceRules.ClimateSampler::weirdMax),
-                        Codec.DOUBLE.optionalFieldOf("min_depth", -Double.MAX_VALUE).forGetter(NPSurfaceRules.ClimateSampler::depthMin),
-                        Codec.DOUBLE.optionalFieldOf("max_depth", Double.MAX_VALUE).forGetter(NPSurfaceRules.ClimateSampler::depthMax)
-                    ).apply(source, NPSurfaceRules.ClimateSampler::new)
+                        Codec.DOUBLE.optionalFieldOf("min_temperature", -1.0).forGetter(NESurfaceRules.ClimateSampler::tempMin),
+                        Codec.DOUBLE.optionalFieldOf("max_temperature", 1.0).forGetter(NESurfaceRules.ClimateSampler::tempMax),
+                        Codec.DOUBLE.optionalFieldOf("min_humidity", -1.0).forGetter(NESurfaceRules.ClimateSampler::humMin),
+                        Codec.DOUBLE.optionalFieldOf("max_humidity", 1.0).forGetter(NESurfaceRules.ClimateSampler::humMax),
+                        Codec.DOUBLE.optionalFieldOf("min_continentalness", -1.0).forGetter(NESurfaceRules.ClimateSampler::contMin),
+                        Codec.DOUBLE.optionalFieldOf("max_continentalness", 1.0).forGetter(NESurfaceRules.ClimateSampler::contMax),
+                        Codec.DOUBLE.optionalFieldOf("min_erosion", -1.0).forGetter(NESurfaceRules.ClimateSampler::eroMin),
+                        Codec.DOUBLE.optionalFieldOf("max_erosion", 1.0).forGetter(NESurfaceRules.ClimateSampler::eroMax),
+                        Codec.DOUBLE.optionalFieldOf("min_weirdness", -1.0).forGetter(NESurfaceRules.ClimateSampler::weirdMin),
+                        Codec.DOUBLE.optionalFieldOf("max_weirdness", 1.0).forGetter(NESurfaceRules.ClimateSampler::weirdMax),
+                        Codec.DOUBLE.optionalFieldOf("min_depth", -Double.MAX_VALUE).forGetter(NESurfaceRules.ClimateSampler::depthMin),
+                        Codec.DOUBLE.optionalFieldOf("max_depth", Double.MAX_VALUE).forGetter(NESurfaceRules.ClimateSampler::depthMax)
+                    ).apply(source, NESurfaceRules.ClimateSampler::new)
             )
         );
 
@@ -114,7 +114,7 @@ public class NPSurfaceRules {
         }
 
         public SurfaceRules.Condition apply(SurfaceRules.Context pContext) {
-            return new NPSurfaceConditions.ClimateSamplerCondition(pContext, tempMin, tempMax, humMin, humMax, contMin, contMax, eroMin, eroMax, weirdMin, weirdMax, depthMin, depthMax);
+            return new NESurfaceConditions.ClimateSamplerCondition(pContext, tempMin, tempMax, humMin, humMax, contMin, contMax, eroMin, eroMax, weirdMin, weirdMax, depthMin, depthMax);
         }
     }
 
@@ -134,7 +134,7 @@ public class NPSurfaceRules {
         }
 
         public SurfaceRules.Condition apply(SurfaceRules.Context pContext) {
-            return new NPSurfaceConditions.HeightmapDepthCondition(pContext, depth);
+            return new NESurfaceConditions.HeightmapDepthCondition(pContext, depth);
         }
     }
 

@@ -8,7 +8,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.levelgen.placement.PlacementContext;
 import net.minecraft.world.level.levelgen.placement.PlacementFilter;
 import net.minecraft.world.level.levelgen.placement.PlacementModifierType;
-import dev.perxenic.naturalnecessity.common.worldgen.NPPlacementModifiers;
+import dev.perxenic.naturalnecessity.common.worldgen.NEPlacementModifiers;
 
 import javax.annotation.Nonnull;
 
@@ -43,6 +43,6 @@ public class DepthFilter extends PlacementFilter {
     @Override
     @Nonnull
     public PlacementModifierType<?> type() {
-        return NPPlacementModifiers.DEPTH_FILTER.get();
+        return NEPlacementModifiers.DEPTH_FILTER.get();
     }
 }

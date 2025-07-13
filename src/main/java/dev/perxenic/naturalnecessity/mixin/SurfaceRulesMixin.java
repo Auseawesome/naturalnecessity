@@ -16,8 +16,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import dev.perxenic.naturalnecessity.common.worldgen.surfacerules.NPSurfaceConditions;
-import dev.perxenic.naturalnecessity.common.worldgen.surfacerules.NPSurfaceRules;
+import dev.perxenic.naturalnecessity.common.worldgen.surfacerules.NESurfaceConditions;
+import dev.perxenic.naturalnecessity.common.worldgen.surfacerules.NESurfaceRules;
 import dev.perxenic.naturalnecessity.common.worldgen.surfacerules.ContextExtension;
 
 import java.util.function.Function;
@@ -32,13 +32,13 @@ public abstract class SurfaceRulesMixin {
         private static void onBootstrap(
             Registry<MapCodec<? extends SurfaceRules.ConditionSource>> pRegistry,
             CallbackInfoReturnable<Codec<SurfaceRules.ConditionSource>> cir) {
-            SurfaceRules.register(pRegistry, "naturalnecessity:cliff", NPSurfaceRules.Cliff.CODEC);
-            SurfaceRules.register(pRegistry, "naturalnecessity:cliff_lip", NPSurfaceRules.CliffLip.CODEC);
-            SurfaceRules.register(pRegistry, "naturalnecessity:flat", NPSurfaceRules.Flat.CODEC);
-            SurfaceRules.register(pRegistry, "naturalnecessity:flat_liquid", NPSurfaceRules.FlatLiquid.CODEC);
-            SurfaceRules.register(pRegistry, "naturalnecessity:climate_sampler", NPSurfaceRules.ClimateSampler.CODEC);
-            SurfaceRules.register(pRegistry, "naturalnecessity:heightmap_depth", NPSurfaceRules.HeightmapDepthCheck.CODEC);
-            SurfaceRules.register(pRegistry, "naturalnecessity:biome", NPSurfaceRules.ExtendedBiomeConditionSource.CODEC);
+            SurfaceRules.register(pRegistry, "naturalnecessity:cliff", NESurfaceRules.Cliff.CODEC);
+            SurfaceRules.register(pRegistry, "naturalnecessity:cliff_lip", NESurfaceRules.CliffLip.CODEC);
+            SurfaceRules.register(pRegistry, "naturalnecessity:flat", NESurfaceRules.Flat.CODEC);
+            SurfaceRules.register(pRegistry, "naturalnecessity:flat_liquid", NESurfaceRules.FlatLiquid.CODEC);
+            SurfaceRules.register(pRegistry, "naturalnecessity:climate_sampler", NESurfaceRules.ClimateSampler.CODEC);
+            SurfaceRules.register(pRegistry, "naturalnecessity:heightmap_depth", NESurfaceRules.HeightmapDepthCheck.CODEC);
+            SurfaceRules.register(pRegistry, "naturalnecessity:biome", NESurfaceRules.ExtendedBiomeConditionSource.CODEC);
         }
     }
 
@@ -57,10 +57,10 @@ public abstract class SurfaceRulesMixin {
                                           WorldGenerationContext context,
                                           CallbackInfo ci) {
             SurfaceRules.Context self = (SurfaceRules.Context) (Object) this;
-            cliff = new NPSurfaceConditions.CliffMaterialCondition(self);
-            cliffLip = new NPSurfaceConditions.CliffLipMaterialCondition(self);
-            flat = new NPSurfaceConditions.FlatMaterialCondition(self);
-            flatLiquid = new NPSurfaceConditions.FlatLiquidMaterialCondition(self);
+            cliff = new NESurfaceConditions.CliffMaterialCondition(self);
+            cliffLip = new NESurfaceConditions.CliffLipMaterialCondition(self);
+            flat = new NESurfaceConditions.FlatMaterialCondition(self);
+            flatLiquid = new NESurfaceConditions.FlatLiquidMaterialCondition(self);
         }
 
         @Override
