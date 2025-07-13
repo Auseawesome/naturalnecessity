@@ -1,6 +1,0 @@
-{
-  "parent": "naturalnecessity:block/cross_cutout",
-  "textures": {
-    "cross": "naturalnecessity:block/cattails_bottom"
-  }
-}

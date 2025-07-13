@@ -4,29 +4,15 @@
     "config": {
       "features": [
         {
-          "chance": 0.1,
-          "feature": {
-            "feature": "naturalnecessity:plant_patches/dead_bushes",
-            "placement": []
-          }
-        },
-        {
-          "chance": 0.15,
+          "chance": 0.6,
           "feature": {
             "feature": "naturalnecessity:plant_patches/cactus",
-            "placement": []
-          }
-        },
-        {
-          "chance": 0.025,
-          "feature": {
-            "feature": "naturalnecessity:plant_patches/dune_grass_mixed",
             "placement": []
           }
         }
       ],
       "default": {
-        "feature": "naturalnecessity:plant_patches/dune_grass",
+        "feature": "naturalnecessity:plant_patches/dead_bushes",
         "placement": []
       }
     }
@@ -34,7 +20,7 @@
   "placement": [
     {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 48,
+      "noise_to_count_ratio": 24,
       "noise_factor": 0.5,
       "noise_offset": -0.5
     },

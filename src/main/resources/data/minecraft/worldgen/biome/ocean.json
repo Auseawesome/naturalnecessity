@@ -75,9 +75,6 @@
     [
       "naturalnecessity:water_supertype/ocean_type/kelp",
       "naturalnecessity:water_supertype/ocean_type/seagrass",
-      "naturalnecessity:water_supertype/ocean_type/red_algae",
-      "naturalnecessity:water_supertype/ocean_type/bone_coral_cobblestone",
-      "naturalnecessity:water_supertype/ocean_type/bone_coral_gravel_sparse",
       "naturalnecessity:water_supertype/ocean_type/mudflats_vegetation"
     ],
     [

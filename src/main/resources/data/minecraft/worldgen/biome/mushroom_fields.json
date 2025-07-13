@@ -75,12 +75,8 @@
     ],
     [
       "naturalnecessity:water_supertype/island_type/large_mushrooms",
-      "naturalnecessity:water_supertype/island_type/sandy_large_mushrooms",
       "naturalnecessity:water_supertype/island_type/mushrooms",
-      "naturalnecessity:water_supertype/island_type/sandy_mushrooms",
-      "naturalnecessity:water_supertype/island_type/sparse_mushrooms",
       "naturalnecessity:water_supertype/island_type/seagrass",
-      "naturalnecessity:water_supertype/island_type/kelp",
       "minecraft:sea_pickle"
     ],
     [

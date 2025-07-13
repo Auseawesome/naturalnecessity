@@ -75,10 +75,7 @@
     [
       "naturalnecessity:water_supertype/shore_type/cliff_vegetation",
       "naturalnecessity:water_supertype/shore_type/kelp",
-      "naturalnecessity:water_supertype/shore_type/seagrass",
-      "naturalnecessity:water_supertype/shore_type/red_algae",
-      "naturalnecessity:water_supertype/ocean_type/bone_coral_cobblestone",
-      "naturalnecessity:water_supertype/ocean_type/bone_coral_gravel_sparse"
+      "naturalnecessity:water_supertype/shore_type/seagrass"
     ],
     [
       "minecraft:freeze_top_layer"

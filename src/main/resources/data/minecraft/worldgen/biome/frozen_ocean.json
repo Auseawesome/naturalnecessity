@@ -79,9 +79,7 @@
     ],
     [
       "naturalnecessity:water_supertype/ocean_type/kelp_frozen",
-      "naturalnecessity:water_supertype/ocean_type/seagrass_frozen",
-      "naturalnecessity:water_supertype/ocean_type/red_algae",
-      "naturalnecessity:water_supertype/ocean_type/bone_coral_gravel_sparse"
+      "naturalnecessity:water_supertype/ocean_type/seagrass_frozen"
     ],
     [
       "minecraft:freeze_top_layer"

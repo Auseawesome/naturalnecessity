@@ -73,7 +73,6 @@
     ],
     [
       "naturalnecessity:water_supertype/ocean_type/coral",
-      "naturalnecessity:water_supertype/ocean_type/red_algae_warm",
       "naturalnecessity:water_supertype/ocean_type/seaplants_reef",
       "naturalnecessity:water_supertype/ocean_type/seagrass_warm",
       "naturalnecessity:water_supertype/ocean_type/mudflats_vegetation"

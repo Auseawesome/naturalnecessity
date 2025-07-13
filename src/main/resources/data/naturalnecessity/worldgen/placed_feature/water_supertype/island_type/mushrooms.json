@@ -4,23 +4,16 @@
     "config": {
       "features": [
         {
-          "chance": 0.3,
+          "chance": 0.5,
           "feature": {
             "feature": "naturalnecessity:plant_patches/red_mushrooms",
-            "placement": [ ]
-          }
-        },
-        {
-          "chance": 0.3,
-          "feature": {
-            "feature": "naturalnecessity:plant_patches/brown_mushrooms",
             "placement": [ ]
           }
         }
       ],
       "default": {
-        "feature": "naturalnecessity:plant_patches/mycelial_growth",
-        "placement": []
+        "feature": "naturalnecessity:plant_patches/brown_mushrooms",
+        "placement": [ ]
       }
     }
   },
