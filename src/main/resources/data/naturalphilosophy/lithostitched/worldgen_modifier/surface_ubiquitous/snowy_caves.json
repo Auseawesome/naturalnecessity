@@ -7,8 +7,8 @@
   "surface_rule": {
     "type": "minecraft:condition",
     "if_true": {
-      "type": "naturalphilosophy:biome",
-      "biome_is": "#naturalphilosophy:snowy_caves"
+      "type": "naturalnecessity:biome",
+      "biome_is": "#naturalnecessity:snowy_caves"
     },
     "then_run": {
       "type": "minecraft:condition",
@@ -38,7 +38,7 @@
               {
                 "type": "minecraft:condition",
                 "if_true": {
-                  "type": "naturalphilosophy:heightmap_depth",
+                  "type": "naturalnecessity:heightmap_depth",
                   "depth": 16
                 },
                 "then_run": {
@@ -51,7 +51,7 @@
               {
                 "type": "minecraft:condition",
                 "if_true": {
-                  "type": "naturalphilosophy:heightmap_depth",
+                  "type": "naturalnecessity:heightmap_depth",
                   "depth": 12
                 },
                 "then_run": {
@@ -59,7 +59,7 @@
                   "if_true": {
                     "type": "minecraft:not",
                     "invert": {
-                      "type": "naturalphilosophy:cliff"
+                      "type": "naturalnecessity:cliff"
                     }
                   },
                   "then_run": {
@@ -90,7 +90,7 @@
                           "type": "minecraft:noise_threshold",
                           "max_threshold": 1E308,
                           "min_threshold": -0.5,
-                          "noise": "naturalphilosophy:surface_randomness"
+                          "noise": "naturalnecessity:surface_randomness"
                         },
                         "then_run": {
                           "type": "minecraft:block",
@@ -105,7 +105,7 @@
                           "type": "minecraft:noise_threshold",
                           "max_threshold": 1E308,
                           "min_threshold": -1.0,
-                          "noise": "naturalphilosophy:surface_randomness"
+                          "noise": "naturalnecessity:surface_randomness"
                         },
                         "then_run": {
                           "type": "minecraft:block",
@@ -127,7 +127,7 @@
               {
                 "type": "minecraft:condition",
                 "if_true": {
-                  "type": "naturalphilosophy:heightmap_depth",
+                  "type": "naturalnecessity:heightmap_depth",
                   "depth": 6
                 },
                 "then_run": {
@@ -135,7 +135,7 @@
                   "if_true": {
                     "type": "minecraft:not",
                     "invert": {
-                      "type": "naturalphilosophy:cliff"
+                      "type": "naturalnecessity:cliff"
                     }
                   },
                   "then_run": {
@@ -166,7 +166,7 @@
                           "type": "minecraft:noise_threshold",
                           "max_threshold": 1E308,
                           "min_threshold": 0.125,
-                          "noise": "naturalphilosophy:surface_randomness"
+                          "noise": "naturalnecessity:surface_randomness"
                         },
                         "then_run": {
                           "type": "minecraft:block",
@@ -181,7 +181,7 @@
                           "type": "minecraft:noise_threshold",
                           "max_threshold": 1E308,
                           "min_threshold": -0.1875,
-                          "noise": "naturalphilosophy:surface_randomness"
+                          "noise": "naturalnecessity:surface_randomness"
                         },
                         "then_run": {
                           "type": "minecraft:block",

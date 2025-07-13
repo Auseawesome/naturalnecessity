@@ -1,5 +1,5 @@
 {
-  "parent": "naturalphilosophy:block/thin_hanging_block",
+  "parent": "naturalnecessity:block/thin_hanging_block",
   "textures": {
     "particle": "block/moss_block",
     "moss": "block/moss_block",
